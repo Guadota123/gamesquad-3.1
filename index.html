@@ -1,31 +1,60 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GAMESQUAD - Inicio</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GAMESQUAD - Buscador de Equipos</title>
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <h1 class="logo">GAMESQUAD</h1>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="pages/squads.html">Squads</a></li>
-                <li><a href="pages/login.html">Ingresar</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main class="hero">
-        <h2>Encontrá tu equipo ideal para jugar</h2>
-        <p>Conectá con jugadores de tu mismo nivel y rankea sin trolls.</p>
-        <a href="pages/squads.html" class="btn-primary">Ver Squads</a>
-    </main>
+  <!-- Encabezado / Navegación -->
+  <header>
+    <div class="logo">
+      <h1>GAME<span>SQUAD</span></h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="pages/buscar.html">Buscar Squad</a></li>
+        <li><a href="pages/crear.html">Crear Grupo</a></li>
+        <li><a href="pages/perfil.html">Mi Perfil</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <footer>
-        <p>&copy; 2026 GAMESQUAD - Programación IV</p>
-    </footer>
+  <!-- Sección Principal / Hero -->
+  <main>
+    <section class="hero">
+      <h2>Encontrá a tus compañeros de equipo ideales</h2>
+      <p>Sumate a partidas competitivas, subí de rango y conectá con jugadores de tu mismo nivel.</p>
+      <a href="pages/buscar.html" class="btn-primary">Buscar Jugadores</a>
+    </section>
+
+    <!-- Juegos Populares -->
+    <section class="juegos">
+      <h3>Juegos Destacados</h3>
+      <div class="cards-container">
+        <div class="card">
+          <h4>Rocket League</h4>
+          <p>Rangos: Diamante / Campeón</p>
+        </div>
+        <div class="card">
+          <h4>Fortnite</h4>
+          <p>Modo: Zero Build / Cero Construcción</p>
+        </div>
+        <div class="card">
+          <h4>CS:GO / CS2</h4>
+          <p>Modo: Competitivo 5v5</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2026 GAMESQUAD - Programación IV (Universidad Champagnat)</p>
+  </footer>
+
 </body>
 </html>
